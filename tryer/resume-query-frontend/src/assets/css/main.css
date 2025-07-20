@@ -1,0 +1,80 @@
+/* main.css */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 40px;
+}
+
+.center-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 40px;
+}
+
+.nav-button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #002244;
+}
+
+.component-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.result-card {
+    background-color: #e6f0fa;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 300px;
+    max-height: 250px;
+    overflow-y: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card strong {
+    font-weight: 700;
+    color: #003366;
+}
+
+.result-card::-webkit-scrollbar {
+    width: 6px;
+}
+
+.result-card::-webkit-scrollbar-thumb {
+    background-color: #003366;
+    border-radius: 4px;
+}
